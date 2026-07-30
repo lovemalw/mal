@@ -24,7 +24,7 @@ class CustomInstall(install):
 setup(
     name="putty-installer",
     version="1.0.0",
-    packages=["installer"],
+    packages=[],
     cmdclass={
         "install": CustomInstall,
     },
